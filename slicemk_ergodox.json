@@ -228,10 +228,11 @@
 				},
 				{
 					"Name": "",
-					"Behavior": "mo",
+					"Behavior": "lt",
 					"Notes": "",
 					"Args": [
-						"fn"
+						"fn",
+						"LCTL"
 					]
 				},
 				{
@@ -477,7 +478,7 @@
 					"Behavior": "kp",
 					"Notes": "",
 					"Args": [
-						"LBRC"
+						"LBKT"
 					]
 				},
 				{
@@ -485,7 +486,7 @@
 					"Behavior": "kp",
 					"Notes": "",
 					"Args": [
-						"RBRC"
+						"RBKT"
 					]
 				},
 				{
@@ -790,10 +791,16 @@
 				},
 				{
 					"Name": "",
+					"Behavior": "none",
+					"Notes": "",
+					"Args": []
+				},
+				{
+					"Name": "",
 					"Behavior": "kp",
 					"Notes": "",
 					"Args": [
-						"F15"
+						"LBRC"
 					]
 				},
 				{
@@ -801,15 +808,7 @@
 					"Behavior": "kp",
 					"Notes": "",
 					"Args": [
-						"F16"
-					]
-				},
-				{
-					"Name": "",
-					"Behavior": "out",
-					"Notes": "",
-					"Args": [
-						"OUT_USB"
+						"RBRC"
 					]
 				},
 				{
@@ -1115,16 +1114,20 @@
 					"Args": []
 				},
 				{
-					"Name": "",
-					"Behavior": "none",
+					"Name": "DELETE",
+					"Behavior": "kp",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"DELETE"
+					]
 				},
 				{
 					"Name": "",
-					"Behavior": "none",
+					"Behavior": "kp",
 					"Notes": "",
-					"Args": []
+					"Args": [
+						"SPC"
+					]
 				},
 				{
 					"Name": "",
